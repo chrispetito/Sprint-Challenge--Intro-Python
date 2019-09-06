@@ -19,9 +19,16 @@
 # Put a comment noting which class is the base class
 
 class Vehicle:      #Base class
+    pass
+    
+class GroundVehicle:
+    pass
 
-    def __init__(self, name):
-        self.name = name
+class Car:
+    pass
+
+class Motorcycle:
+    pass
 
 class FlightVehicle:
     pass
@@ -29,14 +36,5 @@ class FlightVehicle:
 class Starship:
     pass
 
-class GroundVehicle:
-    pass
-
 class Airplane:
-    pass
-
-class Car:
-    pass
-
-class Motorcycle:
     pass
