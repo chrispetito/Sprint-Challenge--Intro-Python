@@ -31,7 +31,6 @@ def cityreader(cities=[]):
   # `cities` list
     with open('cities.csv', newline='') as csvfile:
       file = csv.reader(csvfile)
-      next(file)
       for x in file: 
           if x[0] == 'city':
             continue
