@@ -33,7 +33,6 @@ class Car(GroundVehicle):
 class Motorcycle(GroundVehicle):
     pass
 
-
 class Starship(FlightVehicle):
     pass
 
